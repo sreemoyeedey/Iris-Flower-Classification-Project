@@ -22,6 +22,3 @@ Here are some visualizations from the project:
 2. **Confusion Matrix**:
    ![Confusion Matrix](visualizations/confusion_matrix.png)
 
-## Setup Instructions
-1. Clone this repository:
-   git clone https://github.com/your-username/iris-flower-classification.git
