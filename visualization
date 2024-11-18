@@ -1,0 +1,18 @@
+
+---
+
+### **3. Add Visualizations to the Repository**
+1. **Save Visualizations**:
+   In your code, save the visualizations as images:
+
+   ```python
+   # Save pairplot
+   sns.pairplot(df, hue='species')
+   plt.savefig("visualizations/pairplot.png")
+
+   # Save confusion matrix
+   sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=data.target_names, yticklabels=data.target_names)
+   plt.xlabel('Predicted')
+   plt.ylabel('True')
+   plt.title('Confusion Matrix')
+   plt.savefig("visualizations/confusion_matrix.png")
